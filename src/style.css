@@ -1,0 +1,15 @@
+*{
+  font-family: "Fjalla One";
+}
+.menu-btn{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 55px;
+}
+.menu-logo-full{
+  margin-top: 5px;
+}
+.main-menu{
+  background-color: #dddddd;
+  height: 130px;
+}

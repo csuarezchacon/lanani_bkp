@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+        <script type="text/javascript" src="/vendor/angular/angular.min.js"></script>
+
+        <script type="text/javascript" src="producto_module.js"></script>
+        <script type="text/javascript" src="producto_factory.js"></script>
+        <script type="text/javascript" src="producto_controller.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div ng-app="WebLanani.producto" ng-controller="ProductoCtrl as vmProd">
+      <div>
+        Nombre de Producto: {{vmProd.producto.nombre}} <br>
+        Descripcion del Producto: {{vmProd.producto.descripcion}}<br>
+        <div ng-repeat="path in vmProd.producto.img">
+          <img src="{{path.cln}}">
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

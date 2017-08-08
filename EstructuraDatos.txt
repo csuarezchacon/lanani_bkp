@@ -1,0 +1,41 @@
+Producto
+  prodId
+  deteId
+  prodNombre
+  prodDescripcion
+
+DescripcionTecnica
+  deteId
+  titeId
+  deteDificultad
+  deteMaterial
+
+TipoTejido
+  titeId
+  titeNombre
+
+Valoracion
+  valoId
+  prodId
+  valoNumero (1-5)
+
+Imagen
+  imagId
+  prodId
+  imagBase64
+
+RelProductoEtiqueta
+  prodId
+  etiqId
+
+RelProductoCategoria
+  prodId
+  cateId
+
+Etiqueta
+  etiqId
+  etiqNombre
+
+Categoria
+  cateId
+  cateNombre
